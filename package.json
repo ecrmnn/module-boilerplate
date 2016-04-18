@@ -1,0 +1,28 @@
+{
+  "name": "module-boilerplate",
+  "version": "1.0.0",
+  "description": "Awesome sauce",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/module-boilerplate"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/module-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/module-boilerplate",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
