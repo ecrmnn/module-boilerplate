@@ -8,7 +8,7 @@
 
 ### Installation
 ```bash
-npm install <insert module name>
+npm install module-boilerplate --save
 ```
 
 ### Usage
