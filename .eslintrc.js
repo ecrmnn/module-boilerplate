@@ -3,6 +3,9 @@ module.exports = {
   parserOptions: {
     sourceType: 'script',
   },
+  plugins: [
+    'import',
+  ],
   env: {
     browser: true,
     node: true,
