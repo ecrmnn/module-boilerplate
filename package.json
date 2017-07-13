@@ -4,7 +4,8 @@
   "description": "Awesome sauce",
   "main": "src/index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha test/tests.js"
+    "test": "node_modules/.bin/mocha test/tests.js",
+    "eslint": "node_modules/.bin/eslint src/"
   },
   "repository": {
     "type": "git",
