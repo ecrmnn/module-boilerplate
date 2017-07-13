@@ -1,7 +1,7 @@
 'use strict';
 
-const chai = require('chai');
 const expect = require('chai').expect;
+const { describe, it } = require('mocha');
 
 describe('Module Boilerplate Test Suite', function () {
 //  let result;
