@@ -2,7 +2,7 @@
   "name": "module-boilerplate",
   "version": "1.0.0",
   "description": "Awesome sauce",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "pretest": "rm -rf dist && npm run transpile",
     "test": "node_modules/.bin/mocha test/tests.js",
