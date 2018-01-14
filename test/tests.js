@@ -1,11 +1,10 @@
 'use strict';
 
-const it = require('mocha').it;
-const describe = require('mocha').describe;
-const expect = require('chai').expect;
-const module = require('../dist');
+const { describe, it } = require('mocha');
+const { expect } = require('chai');
+const dist = require('../dist');
 
-describe('Module Boilerplate Test Suite', function () {
+describe('Module Boilerplate Test Suite', () => {
 //  let result;
 //
 //  before(function (done) {
@@ -18,8 +17,7 @@ describe('Module Boilerplate Test Suite', function () {
 //    });
 //  });
 
-  it('should be awesome', function () {
-    const awesome = 'awesome';
-    expect(awesome).to.equal('awesome');
+  it('should be unicorn', () => {
+    expect(dist()).to.equal('🦄');
   });
 });
